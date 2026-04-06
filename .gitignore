@@ -1,0 +1,33 @@
+# --- Reportes de Robot Framework ---
+# Ignora todos los archivos generados por las ejecuciones
+output.xml
+log.html
+report.html
+selenium-screenshot-*.png
+
+# --- Resultados específicos de Xstore ---
+**/reporte_final/Resultado_*.txt
+
+# --- Python y Entornos Virtuales ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# --- IDEs y Sistema ---
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# --- Carpetas de resultados ---
+# Si usas el comando --outputdir results, ignora toda la carpeta
+results/
+
+# --- Carpeta de Virtual Enviroment ---
+.venv/
+
+# --- Carpeta de Reportes Allure ---
+allure-results/
